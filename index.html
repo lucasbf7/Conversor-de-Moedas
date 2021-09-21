@@ -1,0 +1,47 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+	<title>Conversor de moedas Sul-americanas (Alura)</title>
+</head>
+
+<body>
+	<div class="container">
+		<h1 class="page-title">
+			Conversor de moedas Sul-americanas
+		</h1><br>
+		<p class="page-subtitle">
+			Vai viajar pela Ámerica do Sul?
+		</p>
+		<p class="page-subtitle">
+			Descubra quanto que os seus reais equivalem nas moedas dos países Sul-americanos:
+		</p><br>
+
+		<label for="moeda">Insira o valor em R$</label><br>
+		<input type="number" id="valor" size="2" /><br>
+
+		<label>Defina o País</label><br>
+		<select id="pais">
+			<option selected disabled value "">-</option>
+			<option>Argentina</option>
+			<option>Aruba</option>
+			<option>Bolívia</option>
+			<option>Chile</option>
+			<option>Colômbia</option>
+			<option>Curaçau</option>
+			<option>Equador</option>
+			<option>Guiana</option>
+			<option>Paraguai</option>
+			<option>Peru</option>
+			<option>Suriname</option>
+			<option>Uruguai</option>
+			<option>Venezuela</option>
+		</select><br><br><br>
+		<button onclick="Trocar()">Trocar</button><br><br><br>
+		<p class="resultado" id="valorConvertido"></p><br><br><br><br><br><br>
+		<p class="text">Valores referentes ao dia 21/09/2021</p>
+        <script src="app.js"></script>
+	</div>
+	<a href="https://alura.com.br/" target="_blank">
+		<img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+		<img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">

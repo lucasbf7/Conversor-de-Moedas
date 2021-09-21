@@ -1,0 +1,79 @@
+body {
+	font-family: "Garamond", serif;
+	min-height: 400px;
+	background-image: url(https://assets-blog.pagseguro.uol.com.br/wp-content/2020/08/BP-100-destaque.jpg);
+	background-color: dodgerblue;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+img {
+	opacity: 0.4;
+}
+
+.container {
+	text-align: center;
+	padding: 20px;
+	height: 100vh;
+}
+
+.page-title {
+	color: #000000;
+	margin: 0 0 5px;
+}
+
+.page-subtitle {
+	color: #000000;
+	margin-top: 5px;
+	font-weight: 600;
+}
+
+.page-logo {
+	width: 200px;
+}
+
+.alura-logo {
+	width: 40px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+select {
+	color: black;
+	border-radius: 5px;
+	border: 1.2px solid blue;
+	padding: 6px;
+}
+
+input {
+	margin: 12px;
+	padding: 6px;
+	border-radius: 5px;
+	border: 1.2px solid blue;
+}
+
+label {
+	color: black;
+}
+
+button {
+	margin-top: 12px;
+	padding: 4px 8px;
+	border-radius: 5px;
+	background: #ffffff;
+	border: 1.2px solid #212526;
+	box-shadow: 2px 2px 2px #485960;
+}
+
+.resultado {
+	font-size: 20px;
+	text-align: center;
+	font-weight: 700;
+	display: table;
+	margin: 0px auto 0px auto;
+	padding: 5px;
+	background-color: black;
+	color: white;
+}
